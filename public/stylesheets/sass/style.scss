@@ -1,0 +1,58 @@
+// Importing partials
+@import "config";
+@import "utilities";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-menu {
+  margin-left: 5%;
+  margin-right: 5%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  font-family: $primary-font-type;
+  font-size: $primary-font-size;
+  color: $primary-color;
+  font-weight: 600;
+
+  a {
+    text-decoration: none;
+    color: $primary-color;
+  }
+
+  .logo {
+    a {
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+    li {
+      margin-left: 3rem;
+      color: $primary-color;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.banner {
+  position: relative;
+  top: 20rem;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/framework/css/tailwind.css" />
+  </head>
+  <body>
+      <nav class = 'bg-white fixed top-0 right-0 left-0 z-20'>
+        <div class = 'flex justify-between items-center text-red-500 font-medium container py-6'>
+          <div class = 'hover:text-red-200 duration-150 text-xl'><a href="#">CoachZone</a></div>
+          <ul class = 'flex'>
+            <li class = 'mx-3 hover:text-red-200 duration-100 uppercase text-sm'><a href="#">How it works</a></li>
+            <li class = 'mx-3 hover:text-red-200 duration-100 uppercase text-sm'><a href="#">Cities we're in</a></li>
+            <li class = 'mx-3 hover:text-red-200 duration-100 uppercase text-sm'><a href="#">About us</a></li>
+            <li class = 'mx-3 hover:text-red-200 duration-100 uppercase text-sm'><a href="#">Sign in</a></li>
+          </ul>
+          <button type = 'button' class = 'text-sm bg-red-500 rounded py-2 px-4 text-white hover:bg-white hover:text-red-500 border-red-500 border-2 duration-100 uppercase'>Get matched</button>
+        </div>
+      </nav>
+      <div style="background-image:url('/images/personal-trainer.jpg')" class='relative mt-24 h-screen bg-no-repeat bg-cover' >
+        <div class="inset-0 bg-black opacity-75 h-full"></div>
+        <div class="inset-0 absolute bg-black w-64 h-64"></div>
+      </div>
+  </body>
+</html>

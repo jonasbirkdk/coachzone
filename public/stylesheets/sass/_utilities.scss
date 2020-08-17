@@ -1,0 +1,11 @@
+// Button
+.btn-lg {
+  font-family: $primary-font-type;
+  padding: 0.7rem 3rem;
+  @include set-background($primary-color);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+}
